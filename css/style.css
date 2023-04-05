@@ -23,3 +23,21 @@ label {
 button {
   margin: 10px 0;
 }
+
+@media (min-width: 600px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #lists {
+    display: flex;
+    justify-content: space-around;
+  }
+  #formElements {
+    /* grid-template-columns: repeat(6,1fr); */
+    display: flex;
+    justify-content: space-around;
+  }
+}
