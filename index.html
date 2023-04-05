@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>DOM manipulation example</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>Enter student's information</h1>
-        <button>Change Background Color</button>
+      <h1>Enter student's information</h1>
+      <button>Change Background Color</button>
     </header>
 
     <section>
+      <div id="formElements">
         <label>First Name:</label>
-        <input id="firstname" type="text">
+        <input id="firstname" type="text" />
         <label>Last Name:</label>
-        <input id="lastname" type="text">
+        <input id="lastname" type="text" />
         <label>Program Name:</label>
-        <input id="progname" type="text">
-        <button>Submit</button>
+        <input id="progname" type="text" />
+      </div>
+      <div id="submit-container">
+        <button id="submit">Submit</button>
+      </div>
     </section>
 
     <section>
-        <h2>Enrolled students</h2>
-        <ul>Sudents Enrolled in CIT</ul>
-        <ul>Sudents Enrolled in CST</ul>
+      <h2>Enrolled students</h2>
+      <ul>
+        Sudents Enrolled in CIT
+      </ul>
+      <ul>
+        Sudents Enrolled in CST
+      </ul>
     </section>
-
-</body>
-
+  </body>
 </html>
